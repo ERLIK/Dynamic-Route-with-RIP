@@ -23,7 +23,7 @@ Router'ın içerisinde <b>"Static"</b> ve <b>"Dynamic"</b> olmak üzere iki adet
   Gelişmiş ağlarda trafik yükü ile birlikte belirli noktalarda sıkışıklık yapmaması ya da hatta olabilecek kopukluklara çözüm üretmek için alternatif yollar bulması sayesinde ağ kalitesini arttırır. Routing protocols kullanılabilir ve tüm yollar öğrenilir ve en iyi yolu routing table'ye yerleştirir, geçerli olmayan yolları kaldırır.
   
 <h5>RIP Dynamic Routing</h5>
-  <b>RIP (Routing Information Protocol)</b>: Bir TCP/IP ağındaki router’ların birbirini otomatik olarak tanımasında kullanılan bir iç yönlendirme protokoldür.
+  <b>RIP (Routing Information Protocol)</b>: Bir TCP/IP ağındaki router’ların birbirini otomatik olarak tanımasında kullanılan bir iç yönlendirme protokoldür. RIP routing, RFC 1058'de tanımlanmıştır. Routerların routing tablosunu aktif bağlantısından 30 saniyede bir gönderir ve hop count tutar. Bu değer maksimum 15 olabilir.
   
 <h3>Dynamic Routing Configuration</h3>
   Farklı networklerdeki 8 adet bilgisayar ve 1 adet sunucuyu birbirleri ile konuşturmak için bir kaç yol var. Statik ya da dinamik olanı seçebiliriz RIP için bu ön hazırlık laboratuarını tasarlamak gerekirse;
