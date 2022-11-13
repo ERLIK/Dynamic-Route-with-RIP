@@ -54,7 +54,7 @@ Router(config-router)#network 21.0.0.0<br>
 Router(config-router)#network 19.0.0.0<br>
 Router(config-router)#network 22.0.0.0<br>
 Router(config-router)#network 20.0.0.0<br>
-Router(config-router)#network 14.0.0.0<br></n>
+Router(config-router)#network 14.0.0.0<br></b>
 
 Artık bir paketin otomatik bir şekilde hedefe gittiğini tespit edebiliriz. Denemek için Router A'dan Server 0'a ping atıyorum...
 
@@ -65,7 +65,8 @@ Sending 5, 100-byte ICMP Echos to 14.0.0.10, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/1 ms
 
-Tüm routerlarıma bu konfigürasyonları sizler için yaptım. 
+Tüm routerlarıma bu konfigürasyonları sizler için yaptım. Herhangi bir routerı ya da yolunu silmenizde bile paket bağlantı olduğu sürece iletişime devam edecektir.
+
 Herkere iyi çalışmalar...
 
 ERLIK
